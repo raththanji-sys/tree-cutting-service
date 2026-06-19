@@ -386,94 +386,183 @@
   </div>
 </footer>
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "LocalBusiness",
-        "@id": "https://treecuttingservice.in/#business",
-        "name": "Ashok Tree Cutting Services",
-        "alternateName": ["Ashok Tree Cutting", "Tree Cutting Service"],
-        "url": "https://treecuttingservice.in/",
-        "logo": "https://treecuttingservice.in/images/tree-cutting-service.png",
-        "image": "https://treecuttingservice.in/images/tree-cutting-service.png",
-        "description": "Professional tree cutting, pruning, stump grinding, dangerous tree removal and coconut tree cutting services in Pondicherry, Villupuram, Tindivanam, Panruti and surrounding areas.",
-        "telephone": "+91-8870123865",
-        "priceRange": "₹₹",
-        "slogan": "Safe Cuts, Strong Results",
-        "foundingDate": "2013",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "No.6 Kalikovil Street, Nallur Kuchipalayam",
-          "addressLocality": "Puducherry",
-          "addressRegion": "Puducherry",
-          "postalCode": "605107",
-          "addressCountry": "IN"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 11.9416,
-          "longitude": 79.8083
-        },
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-            "opens": "06:00",
-            "closes": "20:00"
-          }
-        ],
-        "areaServed": [
-          {"@type": "City", "name": "Puducherry"},
-          {"@type": "City", "name": "Villupuram"},
-          {"@type": "City", "name": "Tindivanam"},
-          {"@type": "City", "name": "Panruti"},
-          {"@type": "City", "name": "Cuddalore"},
-          {"@type": "City", "name": "Villiyanur"},
-          {"@type": "City", "name": "Madagadipet"},
-          {"@type": "City", "name": "Thirukanur"}
-        ], 
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Tree Care Services",
-          "itemListElement": [
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tree Trimming", "description": "Professional tree trimming to maintain shape and health"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tree Pruning", "description": "Strategic pruning to remove dead and diseased branches"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Stump Grinding", "description": "Complete stump removal using professional-grade grinders"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Dangerous Tree Cutting", "description": "Safe removal of hazardous or storm-damaged trees"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Coconut Tree Cutting", "description": "Specialised coconut tree trimming and removal"}},
-            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Emergency Tree Removal", "description": "24/7 emergency tree removal after storms"}}
-          ]
-        }, 
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://treecuttingservice.in/#business",
+      "name": "Ashok Tree Cutting Services",
+      "alternateName": [
+        "Ashok Tree Cutting",
+        "Tree Cutting Service"
+      ],
+      "url": "https://treecuttingservice.in/",
+      "logo": "https://treecuttingservice.in/images/tree-cutting-service.png",
+      "image": "https://treecuttingservice.in/images/tree-cutting-service.png",
+      "description": "Professional tree cutting, pruning, stump grinding, dangerous tree removal and coconut tree cutting services in Pondicherry, Villupuram, Tindivanam, Panruti and surrounding areas.",
+      "telephone": "+91-8870123865",
+      "priceRange": "₹₹",
+      "slogan": "Safe Cuts, Strong Results",
+      "foundingDate": "2013",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "No.6 Kalikovil Street, Nallur Kuchipalayam",
+        "addressLocality": "Madagadipet",
+        "addressRegion": "Puducherry",
+        "postalCode": "605107",
+        "addressCountry": "IN"
       },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 11.9416,
+        "longitude": 79.8083
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "06:00",
+          "closes": "20:00"
+        }
+      ],
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Puducherry"
+        },
+        {
+          "@type": "City",
+          "name": "Villupuram"
+        },
+        {
+          "@type": "City",
+          "name": "Tindivanam"
+        },
+        {
+          "@type": "City",
+          "name": "Panruti"
+        },
+        {
+          "@type": "City",
+          "name": "Cuddalore"
+        },
+        {
+          "@type": "City",
+          "name": "Villiyanur"
+        },
+        {
+          "@type": "City",
+          "name": "Madagadipet"
+        },
+        {
+          "@type": "City",
+          "name": "Thirukanur"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tree Care Services",
+        "itemListElement": [
           {
-            "@type": "Question",
-            "name": "How much does tree cutting cost in Pondicherry?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Tree cutting costs in Pondicherry vary depending on tree size, location, and type of service. Ashok Tree Cutting Services offers free on-site estimates. Call 8870123865 for a quote."}
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tree Trimming",
+              "description": "Professional tree trimming to maintain shape and health"
+            }
           },
           {
-            "@type": "Question",
-            "name": "Do you provide emergency tree removal in Pondicherry?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Yes, we provide 24/7 emergency tree removal across Pondicherry, Villupuram, Tindivanam and Panruti. Call 8870123865 any time for immediate assistance."}
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tree Pruning",
+              "description": "Strategic pruning to remove dead and diseased branches"
+            }
           },
           {
-            "@type": "Question",
-            "name": "Which areas do you serve for tree cutting?",
-            "acceptedAnswer": {"@type": "Answer", "text": "We serve Pondicherry, Villupuram, Tindivanam, Panruti, Cuddalore, Villiyanur, Madagadipet, Thirukanur, Auroville and surrounding areas."}
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Stump Grinding",
+              "description": "Complete stump removal using professional-grade grinders"
+            }
           },
           {
-            "@type": "Question",
-            "name": "Do you cut coconut trees in Puducherry?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Yes, we specialise in coconut tree trimming, cutting and full removal across Puducherry and nearby districts."}
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dangerous Tree Cutting",
+              "description": "Safe removal of hazardous or storm-damaged trees"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Coconut Tree Cutting",
+              "description": "Specialised coconut tree trimming and removal"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Emergency Tree Removal",
+              "description": "24/7 emergency tree removal after storms"
+            }
           }
         ]
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does tree cutting cost in Pondicherry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tree cutting costs in Pondicherry vary depending on tree size, location, and type of service. Ashok Tree Cutting Services offers free on-site estimates. Call 8870123865 for a quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide emergency tree removal in Pondicherry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we provide 24/7 emergency tree removal across Pondicherry, Villupuram, Tindivanam and Panruti. Call 8870123865 any time for immediate assistance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which areas do you serve for tree cutting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We serve Pondicherry, Villupuram, Tindivanam, Panruti, Cuddalore, Villiyanur, Madagadipet, Thirukanur, Auroville and surrounding areas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you cut coconut trees in Puducherry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we specialise in coconut tree trimming, cutting and full removal across Puducherry and nearby districts."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 <script>
   /* ── IMAGE SLIDER ── */
   const slides = document.querySelectorAll('.slide');
